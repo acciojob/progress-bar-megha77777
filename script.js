@@ -54,15 +54,15 @@ nextBtn.addEventListener('click', () => {
     currActive = lines.length;
   }
 
-//   updateline();
-// });
+  updateline();
+});
 
-// prevButton.addEventListener('click', () => {
-//   currActive--;
+prevButton.addEventListener('click', () => {
+  currActive--;
 
-//   if (currActive < 1) {
-//     currActive = 1;
-//   }
+  if (currActive < 1) {
+    currActive = 1;
+  }
 
   updateline();
 });
